@@ -63,7 +63,7 @@ FinRiskGPT/
 
 ```mermaid
 graph TD
-    A[Input: 10-K Report (PDF)] --> B[🧹 Text Preprocessing\n(PDF ➝ Text ➝ Paragraphs)]
+    A[Input: 10-K Report (PDF)] --> B[Text Preprocessing\n(PDF ➝ Text ➝ Paragraphs)]
     B --> C[Embedding Store\n(FAISS / Chroma)]
     A --> D[Metadata Extraction\n(Company, Date, Sector)]
     C --> E[RAG + LLM Pipeline\n(LangChain + GPT)]
