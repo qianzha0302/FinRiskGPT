@@ -1,5 +1,5 @@
 
-# 🧠 FinRiskGPT
+# FinRiskGPT
 
 **FinRiskGPT** is an AI-powered financial risk analysis agent that uses Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) to analyze SEC 10-K filings. It extracts, classifies, and summarizes key risks such as legal, credit, and ESG concerns.
 
